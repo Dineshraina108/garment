@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LOGIN_MODEL
+namespace PRODUCT
 {
     static class Program
     {
@@ -15,21 +15,8 @@ namespace LOGIN_MODEL
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);        
-            /* Login fLogin = new Login();
-              if (fLogin.ShowDialog() == DialogResult.OK)
-              {
-                 Application.EnableVisualStyles();
-                  Application.SetCompatibleTextRenderingDefault(false);
-                  fLogin.Close();
-                  Application.Run(new PRODUCT.Home());
-              }
-              else
-              {          
-                 Application.Exit();
-              }*/
-              Application.Run(new Login());
-
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Home());
         }
     }
 }
